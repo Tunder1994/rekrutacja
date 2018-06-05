@@ -1,0 +1,34 @@
+﻿@model EFGetStarted.AspNetCore.NewDb.Models.Data
+
+@{
+    ViewData["Title"] = "REKRUTACJA";
+}
+
+<h2>Jeśli chcesz dołączyć do Billenium</h2>
+
+<h4>Uzupełnij pola poniżej</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <p><b>1. Imie i nazwisko</b></p>
+                <input name="nameAndSurname" type="text" required placeholder="Imię i nazwisko" />
+
+            </div>
+            <div class="form-group">
+                <p><b>2. Dlaczego chciałbyś uczestniczyć w praktykach?</b></p>
+                <textarea name="reason" rows="10" cols="100" required placeholder="Napisz dlaczego..."></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Wyślij" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

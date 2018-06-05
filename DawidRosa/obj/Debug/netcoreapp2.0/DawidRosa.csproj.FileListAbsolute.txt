@@ -1,0 +1,11 @@
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\bin\Debug\netcoreapp2.0\DawidRosa.deps.json
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\bin\Debug\netcoreapp2.0\DawidRosa.runtimeconfig.json
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\bin\Debug\netcoreapp2.0\DawidRosa.runtimeconfig.dev.json
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\bin\Debug\netcoreapp2.0\DawidRosa.dll
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\bin\Debug\netcoreapp2.0\DawidRosa.pdb
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.csprojAssemblyReference.cache
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.AssemblyInfoInputs.cache
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.AssemblyInfo.cs
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.dll
+C:\Users\Dawid\source\repos\DawidRosa\DawidRosa\obj\Debug\netcoreapp2.0\DawidRosa.pdb

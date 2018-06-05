@@ -1,0 +1,40 @@
+﻿@model IEnumerable<EFGetStarted.AspNetCore.NewDb.Models.Data>
+
+@{
+    ViewData["Title"] = "Baza danych";
+}
+
+<h2>Baza osób chętnych do firmy Billenium</h2>
+
+<p>
+    <a asp-action="Create">Utwórz nowy wpis</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Imie i nazwisko
+                </th>
+                <th>
+                    Powód
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameAndSurname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Reason)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
